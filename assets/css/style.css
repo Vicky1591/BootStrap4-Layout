@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0 px;
+    box-sizing: border-box;
+}
+
+
+/* Css For NavBar */
+
+.appHeader .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.appHeader .navbar-brand {
+    width : 120px;
+    display: inline-block;
+}
+
+
+
+/* CSS For Carrosoul */
+
+.carousel-item{
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item:nth-child(1){
+    background-image: url(https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600);
+}
+
+.carousel-item:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1670693829287-398fc17d73ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+.carousel-item:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1670611554947-195269323179?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60);
+}
+
+
+
+
+
+
+
+
+
